@@ -146,12 +146,12 @@ a.imgLink {
     align-items: center;
 }
 
-.footer.imgLink {
+.footer span {
     transition: 450ms;
     margin-left: 15px;
 }
 
-.footer.imgLink:hover {
+.footer span:hover {
     transition: 350ms;
     color: black;
     padding: 5px;
@@ -180,5 +180,5 @@ a.imgLink {
 }
 
 .copyright {
-    margin-top: 25px;
+    margin-top: 25px !important;
 }

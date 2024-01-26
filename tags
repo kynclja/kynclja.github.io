@@ -89,8 +89,8 @@
 .footer a	CSS/styleElem.css	/^.footer a {$/;"	s
 .footer a:hover:not(.imgLink)::after	CSS/styleElem.css	/^.footer a:hover:not(.imgLink)::after {$/;"	c
 .footer a:not(.imgLink)::after	CSS/styleElem.css	/^.footer a:not(.imgLink)::after {$/;"	c
-.footer.imgLink	CSS/styleElem.css	/^.footer.imgLink {$/;"	c
-.footer.imgLink:hover	CSS/styleElem.css	/^.footer.imgLink:hover {$/;"	c
+.footer span	CSS/styleElem.css	/^.footer span {$/;"	s
+.footer span:hover	CSS/styleElem.css	/^.footer span:hover {$/;"	s
 .footerUl	CSS/styleClasses.css	/^.footerUl {$/;"	c
 .footerUl li	CSS/styleElem.css	/^.footerUl li {$/;"	s
 .hidden	CSS/scrollingStyle.css	/^    .hidden {$/;"	c
