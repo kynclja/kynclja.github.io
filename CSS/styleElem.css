@@ -143,11 +143,11 @@ p.aboutMe {
     align-items: center;
 }
 
-.footer a span {
+.footer span {
     margin-left: 15px;
 }
 
-.footer a span:hover {
+.footer span:hover {
     background-color: white;
     padding: 5px;
     border-radius: 6px;
