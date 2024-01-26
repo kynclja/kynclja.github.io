@@ -86,6 +86,8 @@
 .expiriences	CSS/styleClasses.css	/^.expiriences {$/;"	c
 .footer	CSS/styleClasses.css	/^.footer {$/;"	c
 .footer a	CSS/styleElem.css	/^.footer a {$/;"	s
+.footer a span	CSS/styleElem.css	/^.footer a span {$/;"	s
+.footer a span:hover	CSS/styleElem.css	/^.footer a span:hover {$/;"	s
 .footer a:hover:not(.imgLink)::after	CSS/styleElem.css	/^.footer a:hover:not(.imgLink)::after {$/;"	c
 .footer a:not(.imgLink)::after	CSS/styleElem.css	/^.footer a:not(.imgLink)::after {$/;"	c
 .footerUl	CSS/styleClasses.css	/^.footerUl {$/;"	c
