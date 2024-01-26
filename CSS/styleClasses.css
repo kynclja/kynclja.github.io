@@ -233,10 +233,12 @@ h5.projectHeader:hover {
 }
 
 .projectImgArrow {
+    filter: invert(1);
     padding: 15px;
 }
 
 .projectImgArrow:hover {
+    filter: invert(0);
     transition: 350ms;
     background-color: white;
     color: black;
