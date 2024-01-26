@@ -141,6 +141,7 @@ Jan Kynčl	index.html	/^                    <h1 class="name">Jan Kynčl<\/h1>$/;
 Jan Kynčl	index.html	/^    <h3 class="name"><a href="">Jan Kynčl<\/a><\/h3>$/;"	j
 Jan Kynčl	index.html	/^    <title>Jan Kynčl<\/title>$/;"	j
 Select version of biography	index.html	/^        <h3 class="downloadMenu">Select version of biography<\/h3>$/;"	j
+a.imgLink	CSS/styleElem.css	/^a.imgLink {$/;"	c
 a.upButton	CSS/styleElem.css	/^a.upButton,$/;"	c
 aboutMe	index.html	/^                <div id="aboutMe"><\/div>$/;"	I
 aboutMeBtn	index.html	/^            <li class="navBar navBarContent pointer" id="aboutMeBtn"><span>01 \/\/About me<\/spa/;"	I

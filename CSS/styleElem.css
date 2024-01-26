@@ -137,6 +137,9 @@ p.aboutMe {
     position: relative;
     color: white;
     text-decoration: none;
+}
+
+a.imgLink {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
