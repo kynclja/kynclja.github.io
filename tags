@@ -10,6 +10,9 @@
 !_TAG_FIELD_DESCRIPTION	typeref	/Type and name of a variable or typedef/
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_KIND_DESCRIPTION!CSS	c,class	/classes/
+!_TAG_KIND_DESCRIPTION!CSS	i,id	/identities/
+!_TAG_KIND_DESCRIPTION!CSS	s,selector	/selectors/
 !_TAG_KIND_DESCRIPTION!HTML	C,stylesheet	/stylesheets/
 !_TAG_KIND_DESCRIPTION!HTML	I,id	/identifiers/
 !_TAG_KIND_DESCRIPTION!HTML	J,script	/scripts/
@@ -31,6 +34,7 @@
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_OUTPUT_VERSION	0.0	/current.age/
+!_TAG_PARSER_VERSION!CSS	0.0	/current.age/
 !_TAG_PARSER_VERSION!HTML	0.0	/current.age/
 !_TAG_PARSER_VERSION!PHP	0.0	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
@@ -42,4 +46,150 @@
 !_TAG_ROLE_DESCRIPTION!HTML!class	attribute	/assigned as attributes/
 !_TAG_ROLE_DESCRIPTION!HTML!script	extFile	/referenced as external files/
 !_TAG_ROLE_DESCRIPTION!HTML!stylesheet	extFile	/referenced as external files/
+#downloadMenu	CSS/styleClasses.css	/^#downloadMenu {$/;"	i
+#navBarIcon	CSS/styleClasses.css	/^#navBarIcon {$/;"	i
+#upButton	CSS/styleClasses.css	/^#upButton {$/;"	i
+#wraper	CSS/styleClasses.css	/^#wraper {$/;"	i
+*	CSS/styleElem.css	/^* {$/;"	s
+*	CSS/styleEmailPart.css	/^* {$/;"	s
+.aboutMe	CSS/styleClasses.css	/^    .aboutMe {$/;"	c
+.aboutMe	CSS/styleClasses.css	/^.aboutMe {$/;"	c
+.aboutMeExpirience	CSS/styleClasses.css	/^.aboutMeExpirience {$/;"	c
+.background	CSS/styleClasses.css	/^.background {$/;"	c
+.boxExpirience span	CSS/styleClasses.css	/^    .boxExpirience span {$/;"	s
+.boxExpirience:not(li)	CSS/styleClasses.css	/^    .boxExpirience:not(li) {$/;"	c
+.boxExpirience:not(li)	CSS/styleClasses.css	/^.boxExpirience:not(li) {$/;"	c
+.boxExpirience:nth-child(1)	CSS/scrollingStyle.css	/^.boxExpirience:nth-child(1) {$/;"	c
+.boxExpirience:nth-child(2)	CSS/scrollingStyle.css	/^.boxExpirience:nth-child(2) {$/;"	c
+.boxExpirience:nth-child(3)	CSS/scrollingStyle.css	/^.boxExpirience:nth-child(3) {$/;"	c
+.className	CSS/styleClasses.css	/^.className {$/;"	c
+.contactMe img	CSS/styleClasses.css	/^.contactMe img {$/;"	s
+.contactMe img:hover	CSS/styleClasses.css	/^.contactMe img:hover {$/;"	s
+.content	CSS/styleEmailPart.css	/^.content {$/;"	c
+.contentPart	CSS/styleClasses.css	/^    .contentPart {$/;"	c
+.curlyBracket	CSS/styleClasses.css	/^.curlyBracket {$/;"	c
+.download	CSS/styleClasses.css	/^    .download {$/;"	c
+.download	CSS/styleClasses.css	/^.download {$/;"	c
+.downloadMenu	CSS/styleClasses.css	/^.downloadMenu {$/;"	c
+.expiriences	CSS/styleClasses.css	/^.expiriences {$/;"	c
+.footer	CSS/styleClasses.css	/^.footer {$/;"	c
+.footer a	CSS/styleElem.css	/^.footer a {$/;"	s
+.footer a:hover:not(.imgLink)::after	CSS/styleElem.css	/^.footer a:hover:not(.imgLink)::after {$/;"	c
+.footer a:not(.imgLink)::after	CSS/styleElem.css	/^.footer a:not(.imgLink)::after {$/;"	c
+.footerUl	CSS/styleClasses.css	/^.footerUl {$/;"	c
+.footerUl li	CSS/styleElem.css	/^.footerUl li {$/;"	s
+.hidden	CSS/scrollingStyle.css	/^    .hidden {$/;"	c
+.hidden.up	CSS/scrollingStyle.css	/^.hidden.up {$/;"	c
+.hidden:not(.up)	CSS/scrollingStyle.css	/^.hidden:not(.up) {$/;"	c
+.img	CSS/styleClasses.css	/^.img {$/;"	c
+.invisible	CSS/styleClasses.css	/^.invisible {$/;"	c
+.layer1	CSS/styleClasses.css	/^.layer1 {$/;"	c
+.layer1	CSS/styleEmailPart.css	/^.layer1 {$/;"	c
+.mobileArrows	CSS/styleClasses.css	/^    .mobileArrows {$/;"	c
+.mobileArrows	CSS/styleClasses.css	/^.mobileArrows {$/;"	c
+.morePadding	CSS/styleClasses.css	/^.morePadding {$/;"	c
+.myExpiriencesFlex	CSS/styleClasses.css	/^.myExpiriencesFlex {$/;"	c
+.name	CSS/styleClasses.css	/^.name {$/;"	c
+.navBar	CSS/styleClasses.css	/^.navBar {$/;"	c
+.navBar	CSS/styleEmailPart.css	/^.navBar {$/;"	c
+.navBar:hover	CSS/styleClasses.css	/^.navBar:hover {$/;"	c
+.navBar:hover	CSS/styleEmailPart.css	/^.navBar:hover {$/;"	c
+.pointer	CSS/styleClasses.css	/^.pointer {$/;"	c
+.posAboslute	CSS/styleClasses.css	/^.posAboslute {$/;"	c
+.proficients	CSS/styleClasses.css	/^    .proficients {$/;"	c
+.proficients	CSS/styleClasses.css	/^.proficients {$/;"	c
+.project	CSS/styleClasses.css	/^    .project {$/;"	c
+.project img	CSS/styleClasses.css	/^    .project img {$/;"	s
+.project img	CSS/styleClasses.css	/^.project img {$/;"	s
+.project p	CSS/styleClasses.css	/^    .project p {$/;"	s
+.project p	CSS/styleClasses.css	/^.project p {$/;"	s
+.projectHeader	CSS/styleClasses.css	/^.projectHeader {$/;"	c
+.projectHeader:hover	CSS/styleClasses.css	/^.projectHeader:hover {$/;"	c
+.projectImgArrow	CSS/styleClasses.css	/^.projectImgArrow {$/;"	c
+.projectImgArrow:hover	CSS/styleClasses.css	/^.projectImgArrow:hover {$/;"	c
+.projectImgArrow:not(.mobileArrows)	CSS/styleClasses.css	/^    .projectImgArrow:not(.mobileArrows) {$/;"	c
+.projectImgBalls	CSS/styleClasses.css	/^.projectImgBalls {$/;"	c
+.projectImgBalls span	CSS/styleClasses.css	/^.projectImgBalls span {$/;"	s
+.projectImgDiv	CSS/styleClasses.css	/^.projectImgDiv {$/;"	c
+.projectImgPart	CSS/styleClasses.css	/^.projectImgPart {$/;"	c
+.projects h4	CSS/styleClasses.css	/^.projects h4 {$/;"	s
+.projects ul	CSS/styleClasses.css	/^.projects ul {$/;"	s
+.show	CSS/scrollingStyle.css	/^.show {$/;"	c
+.spacer	CSS/styleClasses.css	/^.spacer {$/;"	c
+.spacer	CSS/styleEmailPart.css	/^.spacer {$/;"	c
+.topic	CSS/styleClasses.css	/^.topic {$/;"	c
+.topicProject	CSS/styleClasses.css	/^.topicProject {$/;"	c
+.visible	CSS/styleClasses.css	/^.visible {$/;"	c
+.webStart	CSS/styleClasses.css	/^.webStart {$/;"	c
+.webStartText	CSS/styleClasses.css	/^.webStartText {$/;"	c
+About me	index.html	/^                    <h3 class="topic">About me<\/h3>$/;"	j
+Jan Kynčl	index.html	/^                    <h1 class="name">Jan Kynčl<\/h1>$/;"	h
+Jan Kynčl	index.html	/^    <h3 class="name"><a href="">Jan Kynčl<\/a><\/h3>$/;"	j
 Jan Kynčl	index.html	/^    <title>Jan Kynčl<\/title>$/;"	j
+Select version of biography	index.html	/^        <h3 class="downloadMenu">Select version of biography<\/h3>$/;"	j
+a.upButton	CSS/styleElem.css	/^a.upButton,$/;"	c
+aboutMe	index.html	/^                <div id="aboutMe"><\/div>$/;"	I
+aboutMeBtn	index.html	/^            <li class="navBar navBarContent pointer" id="aboutMeBtn"><span>01 \/\/About me<\/spa/;"	I
+bg	index.html	/^                    <canvas id="bg"><\/canvas>$/;"	I
+body	CSS/styleElem.css	/^body {$/;"	s
+canvas	CSS/styleClasses.css	/^canvas {$/;"	s
+contact me	index.html	/^                <h3>contact me<\/h3>$/;"	j
+div.aboutMe	CSS/styleClasses.css	/^div.aboutMe {$/;"	c
+div.upButtonDiv	CSS/styleElem.css	/^div.upButtonDiv {$/;"	c
+div.upButtonDiv:hover	CSS/styleElem.css	/^div.upButtonDiv:hover {$/;"	c
+downloadMenu	index.html	/^    <div class="invisible downloadMenu" id="downloadMenu">$/;"	I
+form	CSS/styleEmailPart.css	/^    form {$/;"	s
+form	CSS/styleEmailPart.css	/^form {$/;"	s
+h1	CSS/styleClasses.css	/^    h1 {$/;"	s
+h1	CSS/styleElem.css	/^h1 {$/;"	s
+h1	CSS/styleEmailPart.css	/^    h1 {$/;"	s
+h1	CSS/styleEmailPart.css	/^h1 {$/;"	s
+h3	CSS/styleElem.css	/^h3 {$/;"	s
+h3	CSS/styleEmailPart.css	/^h3 {$/;"	s
+h3.name	CSS/styleElem.css	/^h3.name {$/;"	c
+h3.name	CSS/styleEmailPart.css	/^h3.name {$/;"	c
+h3.topic	CSS/styleClasses.css	/^    h3.topic {$/;"	c
+h3.topic	CSS/styleElem.css	/^h3.topic {$/;"	c
+h4	CSS/styleClasses.css	/^    h4 {$/;"	s
+h4	CSS/styleClasses.css	/^    h4,$/;"	s
+h4	CSS/styleElem.css	/^h4 {$/;"	s
+h4 span	CSS/styleElem.css	/^h4 span {$/;"	s
+h5	CSS/styleClasses.css	/^    h5 {$/;"	s
+h5	CSS/styleElem.css	/^h5 {$/;"	s
+h5.projectHeader	CSS/styleClasses.css	/^h5.projectHeader {$/;"	c
+h5.projectHeader:hover	CSS/styleClasses.css	/^h5.projectHeader:hover {$/;"	c
+i	CSS/styleElem.css	/^i {$/;"	s
+input	CSS/styleEmailPart.css	/^    input {$/;"	s
+input	CSS/styleEmailPart.css	/^input {$/;"	s
+input[type="submit"]	CSS/styleEmailPart.css	/^    input[type="submit"] {$/;"	s
+input[type="submit"]	CSS/styleEmailPart.css	/^input[type="submit"] {$/;"	s
+input[type="submit"] :focus	CSS/styleEmailPart.css	/^input[type="submit"]:focus {$/;"	s
+input[type="submit"] :hover	CSS/styleEmailPart.css	/^input[type="submit"]:hover,$/;"	s
+label	CSS/styleEmailPart.css	/^label {$/;"	s
+li span	CSS/styleElem.css	/^li span {$/;"	s
+li.boxExpirience	CSS/styleElem.css	/^li.boxExpirience {$/;"	c
+li.navBar	CSS/styleElem.css	/^li.navBar {$/;"	c
+li.navBar	CSS/styleEmailPart.css	/^li.navBar {$/;"	c
+li.navBar span	CSS/styleElem.css	/^li.navBar span {$/;"	s
+li.navBar span	CSS/styleEmailPart.css	/^li.navBar span {$/;"	s
+my expiriences	index.html	/^                    <h3 class="topic">my expiriences<\/h3>$/;"	j
+myExpiriences	index.html	/^                <div id="myExpiriences"><\/div>$/;"	I
+myExpiriencesBtn	index.html	/^            <li class="navBar navBarContent pointer" id="myExpiriencesBtn"><span>02 \/\/My expir/;"	I
+myProjectsBtn	index.html	/^            <li class="navBar navBarContent pointer" id="myProjectsBtn"><span>03 \/\/My projects/;"	I
+navBarIcon	index.html	/^            <li class="navBar" id="navBarIcon"><i class='fas fa-align-justify pointer' id="navBa/;"	I
+navBarIconBtn	index.html	/^            <li class="navBar" id="navBarIcon"><i class='fas fa-align-justify pointer' id="navBa/;"	I
+navBarUl	index.html	/^        <ul class="navBar posAboslute" id="navBarUl">$/;"	I
+p.aboutMe	CSS/styleClasses.css	/^    p.aboutMe {$/;"	c
+p.aboutMe	CSS/styleElem.css	/^p.aboutMe {$/;"	c
+software developer, game developer & web developer	index.html	/^                    <h2 class="proficients hidden up">software developer, game developer & web d/;"	i
+textarea	CSS/styleEmailPart.css	/^    textarea {$/;"	s
+textarea	CSS/styleEmailPart.css	/^textarea {$/;"	s
+ul	CSS/styleElem.css	/^ul {$/;"	s
+ul.aboutMe	CSS/styleClasses.css	/^    ul.aboutMe {$/;"	c
+ul.aboutMe	CSS/styleClasses.css	/^ul.aboutMe {$/;"	c
+ul.boxExpirience	CSS/styleElem.css	/^ul.boxExpirience {$/;"	c
+ul.navBar	CSS/styleClasses.css	/^    ul.navBar {$/;"	c
+ul.navBar	CSS/styleEmailPart.css	/^    ul.navBar {$/;"	c
+upButton	index.html	/^    <div class="upButtonDiv invisible" id="upButton">$/;"	I
+webStart	index.html	/^            <div class="webStart" id="webStart">$/;"	I
+wraper	index.html	/^    <div id="wraper">$/;"	I

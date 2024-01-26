@@ -1,0 +1,483 @@
+/* _________________________________structure_________________________________ */
+#wraper {
+    width: 100%;
+}
+
+.navBar {
+    z-index: 15;
+    transition: 450ms;
+    top: 0;
+    position: sticky;
+    background: #1a1a1a;
+    opacity: 0.5;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.navBar:hover {
+    transition: 250ms;
+    opacity: 1;
+}
+
+/* .contentPart:not(.aboutMe){
+    margin-bottom: 150px;
+} */
+.topic {
+    text-align: center;
+    font-size: clamp(25px, 35px, 40px);
+}
+
+.footer {
+    clear: both;
+}
+
+/* _________________________________general classes_________________________________ */
+.invisible {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+.posAboslute {
+    position: absolute;
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.background {
+    z-index: 1;
+    background-color: #12181b;
+}
+
+/* _________________________________seperate elemenents_________________________________ */
+#upButton {
+    cursor: pointer;
+}
+
+/* __________________navbar__________________ */
+#navBarIcon {
+    cursor: pointer;
+}
+
+/* __________________start of web (after navbar)__________________ */
+.webStart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.webStartText {
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.proficients {
+    /* text-align: center; */
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* __________________expiriences__________________ */
+.className {
+    color: #11a995;
+}
+
+.boxExpirience:not(li) {
+    padding: 15px;
+    margin: 10px;
+}
+
+.curlyBracket {
+    float: left;
+    text-align: center;
+}
+
+.img {
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background: transparent;
+    filter: invert(100%);
+}
+
+.expiriences {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-right: 1%;
+}
+
+.myExpiriencesFlex {
+    /* margin-right: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+ul.aboutMe {
+    width: 90%;
+    font-size: 25px;
+}
+
+/* __________________projects__________________ */
+.morePadding {
+    padding-bottom: 500px;
+}
+
+.projects h4 {
+    margin-left: 25px;
+}
+
+.project p {
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 95px;
+    text-align: justify;
+}
+
+.project img {
+    width: 500px;
+    height: 250px;
+    /* opacity: 0.5; */
+    transition: 350ms;
+}
+
+.projects ul {
+    background-color: #12181b;
+}
+
+.topicProject {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.projectImgDiv {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectImgPart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectImgBalls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projectImgBalls span {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.projectImgArrow {
+    cursor: pointer;
+}
+
+.projectHeader {
+    /* margin-top: 5px; */
+    border-radius: 15px;
+    background: linear-gradient(to left, #12181b 50%, #262628 50%) right;
+    background-size: 200%;
+    transition: 350ms ease-out;
+}
+
+.projectHeader:hover {
+    transition: 450ms;
+    background-position: left;
+    background-color: #11101b;
+}
+
+h5.projectHeader {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to left, #12181b 50%, #222223 50%) right;
+    background-size: 200%;
+    transition: 350ms ease-out;
+}
+
+h5.projectHeader:hover {
+    transition: 450ms;
+    background-position: left;
+    background-color: #11101b;
+}
+
+h5.projectHeader:hover {
+    transition: 450ms;
+    background-position: left;
+    background-color: #11101b;
+}
+
+.mobileArrows {
+    display: none;
+}
+
+.projectImgArrow {
+    padding: 15px;
+}
+
+.projectImgArrow:hover {
+    transition: 350ms;
+    background-color: white;
+    color: black;
+}
+
+/* __________________footer__________________ */
+.footerUl {
+    font-size: 20px;
+    padding: 30px;
+    background: rgb(17, 17, 17);
+}
+
+/* __________________download menu__________________ */
+.download {
+    clear: both;
+    margin-left: 25px;
+}
+
+#downloadMenu {
+    min-height: 250px;
+    z-index: 10;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.downloadMenu {
+    background-color: rgb(46, 46, 46);
+    border-radius: 5px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.aboutMe {
+    min-height: 800px;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    /* height: 100%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url("../IMG/Layers/layer1.svg") !important;
+}
+
+.contactMe img {
+    transition: 400ms;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.contactMe img:hover {
+    transition: 250ms;
+    border-radius: 15px;
+    background-color: white;
+    /* background-size: 60px; */
+    filter: invert(0);
+}
+
+.aboutMeExpirience {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+canvas {
+    position: absolute;
+    right: 25%;
+    top: 50%;
+}
+
+/* _________________________________responsive elements_________________________________ */
+@media screen and (max-width: 1279px) {
+    .contentPart {
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .proficients {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    h4 {
+        /* font-size: 4vw; */
+        font-size: 18px;
+    }
+
+    .boxExpirience:not(li) {
+        padding: 0px;
+        margin-right: 0px;
+    }
+
+    /* .layer1{
+        background-image: url("IMG/Layers/layer1-mobile.svg")!important;
+    } */
+}
+
+@media screen and (min-width: 1080px) {
+    ul.navBar {
+        display: flex;
+        justify-content: center;
+        /* position: relative; */
+        /* float: right; */
+    }
+
+    .project {
+        display: grid;
+        grid-template-columns: 40% 1fr;
+    }
+}
+
+@media screen and (min-width: 570px) {
+    .aboutMe {
+        flex-wrap: wrap;
+        align-content: flex-end;
+        /* margin-right: 13%; */
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    ul.navBar {
+        display: flex;
+        justify-content: right;
+        /* position: relative; */
+        /* float: right; */
+    }
+
+    .project {
+        position: relative;
+    }
+
+    .project p {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 610px) {
+    .download {
+        font-size: 25px;
+    }
+
+    p.aboutMe {
+        text-align: justify;
+        font-size: 30px;
+    }
+
+    ul.aboutMe {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 609px) {
+    .download {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    .project img {
+        width: 50%;
+    }
+
+    .projectImgArrow:not(.mobileArrows) {
+        display: none !important;
+    }
+
+    .mobileArrows {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 25px;
+        font-size: 40px !important;
+    }
+
+    .project p {
+        margin: 25px;
+    }
+
+    h5 {
+        margin: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    ul.aboutMe {
+        width: 350px;
+    }
+}
+
+/* @media screen and (max-width: 860px){
+    .topic{
+        font-size: 35px;
+    }
+} */
+@media screen and (max-width: 925px) {
+    p.aboutMe {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .project img {
+        width: 80%;
+    }
+
+    h4,
+    .boxExpirience span {
+        font-size: 16px;
+    }
+
+    h3.topic {
+        font-size: clamp(16px, 25px, 30px);
+    }
+
+    p.aboutMe {
+        font-size: 20px;
+    }
+}

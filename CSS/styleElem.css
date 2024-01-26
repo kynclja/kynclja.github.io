@@ -1,0 +1,160 @@
+* {
+    font-family: "JetBrains Mono", sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    scroll-behavior: smooth;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    /* background-color: #12181b; */
+}
+
+h1 {
+    /* text-align: center; */
+    font-size: 8vw;
+}
+
+h3 {
+    font-size: 25px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+h3.name {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    float: left;
+    position: absolute;
+    z-index: 16;
+    background: transparent;
+}
+
+h3.topic {
+    background: transparent;
+}
+
+h4 {
+    font-size: clamp(15px, 20px, 27px);
+}
+
+h4 span {
+    color: #6d33ab;
+}
+
+h5 {
+    /* text-align: left; */
+    margin-left: 69px;
+    font-size: clamp(15px, 20px, 25px);
+}
+
+ul {
+    padding-top: 15px;
+    /* list-style-image: url('sqpurple.gif'); */
+    list-style: none;
+}
+
+li.navBar {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    /* float: left; */
+}
+
+li.boxExpirience {
+    padding: 5px;
+    text-align: left;
+}
+
+ul.boxExpirience {
+    margin-left: 70px;
+}
+
+a.upButton,
+i {
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    background: transparent;
+    background-repeat: no-repeat;
+}
+
+div.upButtonDiv {
+    transition: 400ms;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    right: 25px;
+    bottom: 25px;
+    position: fixed;
+    float: right;
+
+    background-color: white;
+}
+
+div.upButtonDiv:hover {
+    transition: 250ms;
+    filter: invert(1);
+}
+
+.footerUl li {
+    background: #111111;
+}
+
+li.navBar span {
+    text-decoration: none;
+    background: transparent;
+}
+
+li.boxExpirience {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+}
+
+li span {
+    font-size: clamp(12px, 20px, 25px);
+    line-height: 25px;
+}
+
+p.aboutMe {
+    background: transparent;
+}
+
+/* .footer a:hover{
+    transition: 450ms;
+
+} */
+
+.footer a {
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:not(.imgLink)::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.1em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 250ms ease-out;
+}
+
+.footer a:hover:not(.imgLink)::after {
+    transition: transform 450ms ease-out;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

@@ -1,14 +1,124 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Jan Kynčl</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <p>test</p>
-    <p>aaa</p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Kynčl</title>
+    <link rel="stylesheet" href="/CSS/styleElem.css">
+    <link rel="stylesheet" href="/CSS/styleClasses.css">
+    <link rel="stylesheet" href="/CSS/scrollingStyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.5/mobile-detect.min.js"></script>
+
+    <script src="/JS/js.js"></script>
+    <script defer src="/JS/scrolingJs.js"></script>
+    <script src="/JS/projectPart.js"></script>
+</head>
+
+<body class="spacer layer1">
+    <h3 class="name"><a href="">Jan Kynčl</a></h3>
+    <div class="navBar">
+        <ul class="navBar posAboslute" id="navBarUl">
+            <li class="navBar" id="navBarIcon"><i class='fas fa-align-justify pointer' id="navBarIconBtn" style='font-size:30px'></i></li>
+            <li class="navBar navBarContent pointer" id="aboutMeBtn"><span>01 //About me</span></li>
+            <li class="navBar navBarContent pointer" id="myExpiriencesBtn"><span>02 //My expiriences</span></li>
+            <li class="navBar navBarContent pointer" id="myProjectsBtn"><span>03 //My projects</span></li>
+            <li class="navBar navBarContent pointer"><span class="biography">04 //Biography</span></li>
+        </ul>
+    </div>
+    <div id="wraper">
+        <div class="content">
+            <div class="webStart" id="webStart">
+                <div class="webStartText">
+                    <h1 class="name">Jan Kynčl</h1>
+                    <h2 class="proficients hidden up">software developer, game developer & web developer</h2>
+                    <canvas id="bg"></canvas>
+                </div>
+            </div>
+            <div class="aboutMeExpirience">
+                <div id="aboutMe"></div>
+                <div class="contentPart aboutMe hidden">
+                    <h3 class="topic">About me</h3>
+                    <p class="aboutMe">
+                        <ul class="aboutMe">
+                            <li>Hi my name is Jan Kynčl</li>
+                            <li>curently I am computer science student</li>
+                            <li>In my free time I am interested in anything connected with technology or IT</li>
+                        </ul>
+                    </p>
+                </div>
+                <div id="myExpiriences"></div>
+                <div class="contentPart myExpiriencesFlex">
+                    <h3 class="topic">my expiriences</h3>
+                    <div class="expiriences">
+                        <div class="boxExpirience progamming hidden">
+                            <h4><span>public class</span> <span class="className">Programming_Languages</span></h4>
+                            <span class="curlyBracket">{</span>
+                            <ul class="boxExpirience">
+                                <li class="boxExpirience"><img src="IMG/Icons/JSIcon.png" alt="js" class="img"><span>Java script</span></li>
+                                <li class="boxExpirience"><img src="IMG/Icons/PythonIcon.png" alt="python" class="img"><span>Python</span></li>
+                                <li class="boxExpirience"><img src="IMG/Icons/PhpIcon.png" alt="php" class="img"><span>PHP</span></li>
+                                <li class="boxExpirience"><img src="IMG/Icons/CsIcon.png" alt="cs" class="img"><span>C#</span></li>
+                            </ul>
+                            <span class="curlyBracket">}</span><br>
+                        </div>
+
+                        <div class="boxExpirience hidden">
+                            <h4><span>public class</span> <span class="className">Softwares</span></h4>
+                            <span class="curlyBracket">{</span>
+                            <ul class="boxExpirience">
+                                <li class="boxExpirience"><img src="IMG/Icons/CreativecloudIcon.png" alt="adobe products" class="img"><span>Adobe products (Photoshop, Ilustrator,...)</span></li>
+                                <li class="boxExpirience"><img src="IMG/Icons/BlenderIcon.png" alt="blender" class="img"><span>Blender</span></li>
+                                <li class="boxExpirience"><img src="IMG/Icons/UnityIcon.png" alt="unity" class="img"><span>Unity</span></li>
+                            </ul>
+                            <span class="curlyBracket">}</span><br>
+                        </div>
+
+                        <div class="boxExpirience hidden">
+                            <h4><span>public class</span> <span class="className">Web_Development</span></h4>
+                            <span class="curlyBracket">{</span>
+                            <ul class="boxExpirience">
+                                <li class="boxExpirience"><img src="IMG/Icons/JSIcon.png" alt="js" class="img"><span>Java script/ jQuery</span></li>
+                                <li class="boxExpirience"><img src="IMG/Icons/DatabaseIcon.png" alt="database" class="img"><span>Databases (MySQL)</span></li>
+                                <li class="boxExpirience"><img src="IMG/Icons/PhpIcon.png" alt="php" class="img"><span>PHP</span></li>
+                            </ul>
+                            <span class="curlyBracket">}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="upButtonDiv invisible" id="upButton">
+        <i class="fa fa-arrow-up" style="font-size:30px; color:rgb(197, 24, 33)"></i>
+    </div>
+    <div class="invisible downloadMenu" id="downloadMenu">
+        <h3 class="downloadMenu">Select version of biography</h3>
+        <p class="download downloadMenu"><a href="" download class="download downloadMenu">Czech version</a></p>
+        <p class="download downloadMenu"><a href="" download class="download downloadMenu">English version</a></p>
+    </div>
+    <div class="footer">
+        <ul class="footerUl">
+            <li class="contactMe header">
+                <h3>contact me</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/kynclja" target="_blank" class="imgLink"><img src="Img/Icons/githubIcon.png" alt="github"></a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="imgLink"><img src="Img/Icons/LinkedInIcon.png" alt="linkedin"></a>
+                    </li>
+                    <li><a href="/sendEmail/" target="_blank" class="email">E-Mail</a></li>
+                </ul>
+            </li>
+            <li><a href="" class="biography">Biography</a></li>
+            <li>Creted by: Jan Kynčl</li>
+        </ul>
+    </div>
+</body>
+
 </html>
