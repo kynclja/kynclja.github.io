@@ -8,6 +8,7 @@
 !_TAG_FIELD_DESCRIPTION	name	/tag name/
 !_TAG_FIELD_DESCRIPTION	pattern	/pattern/
 !_TAG_FIELD_DESCRIPTION	typeref	/Type and name of a variable or typedef/
+!_TAG_FIELD_DESCRIPTION!XML	uri	/uri associated with name prefix/
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
 !_TAG_KIND_DESCRIPTION!CSS	c,class	/classes/
@@ -32,14 +33,10 @@
 !_TAG_KIND_DESCRIPTION!JavaScript	m,method	/methods/
 !_TAG_KIND_DESCRIPTION!JavaScript	p,property	/properties/
 !_TAG_KIND_DESCRIPTION!JavaScript	v,variable	/global variables/
-!_TAG_KIND_DESCRIPTION!PHP	a,alias	/aliases/
-!_TAG_KIND_DESCRIPTION!PHP	c,class	/classes/
-!_TAG_KIND_DESCRIPTION!PHP	d,define	/constant definitions/
-!_TAG_KIND_DESCRIPTION!PHP	f,function	/functions/
-!_TAG_KIND_DESCRIPTION!PHP	i,interface	/interfaces/
-!_TAG_KIND_DESCRIPTION!PHP	n,namespace	/namespaces/
-!_TAG_KIND_DESCRIPTION!PHP	t,trait	/traits/
-!_TAG_KIND_DESCRIPTION!PHP	v,variable	/variables/
+!_TAG_KIND_DESCRIPTION!SVG	d,def	/ids in defs tags/
+!_TAG_KIND_DESCRIPTION!XML	i,id	/id attributes/
+!_TAG_KIND_DESCRIPTION!XML	n,nsprefix	/namespace prefixes/
+!_TAG_KIND_DESCRIPTION!XML	r,root	/root elements/
 !_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
@@ -47,7 +44,8 @@
 !_TAG_PARSER_VERSION!CSS	0.0	/current.age/
 !_TAG_PARSER_VERSION!HTML	0.0	/current.age/
 !_TAG_PARSER_VERSION!JavaScript	1.1	/current.age/
-!_TAG_PARSER_VERSION!PHP	0.0	/current.age/
+!_TAG_PARSER_VERSION!SVG	0.0	/current.age/
+!_TAG_PARSER_VERSION!XML	0.0	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
 !_TAG_PROC_CWD	/home/toxho/epicIT/kynclja.github.io/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
@@ -184,7 +182,7 @@ h5	CSS/styleClasses.css	/^    h5 {$/;"	s
 h5	CSS/styleElem.css	/^h5 {$/;"	s
 h5.projectHeader	CSS/styleClasses.css	/^h5.projectHeader {$/;"	c
 h5.projectHeader:hover	CSS/styleClasses.css	/^h5.projectHeader:hover {$/;"	c
-hiddenElem	JS/scrolling.js	/^const hiddenElem = document.querySelectorAll(".hidden");$/;"	C
+hiddenElem	JS/scrollingJs.js	/^const hiddenElem = document.querySelectorAll(".hidden");$/;"	C
 i	CSS/styleElem.css	/^i {$/;"	s
 input	CSS/styleEmailPart.css	/^    input {$/;"	s
 input	CSS/styleEmailPart.css	/^input {$/;"	s
@@ -207,7 +205,8 @@ myExpiriencesBtn	index.html	/^            <li class="navBar navBarContent pointe
 navBarIcon	index.html	/^            <li class="navBar" id="navBarIcon"><i class='fas fa-align-justify pointer' id="navBa/;"	I
 navBarIconBtn	index.html	/^            <li class="navBar" id="navBarIcon"><i class='fas fa-align-justify pointer' id="navBa/;"	I
 navBarUl	index.html	/^        <ul class="navBar posAboslute" id="navBarUl">$/;"	I
-observer	JS/scrolling.js	/^const observer = new IntersectionObserver((entries) => {$/;"	C
+ns2d23ccdc0101	IMG/Layers/layer1.svg	/^<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http:\/\/www.w3.org\/2000/;"	n	uri:http://www.w3.org/2000/svg
+observer	JS/scrollingJs.js	/^const observer = new IntersectionObserver((entries) => {$/;"	C
 p.aboutMe	CSS/styleClasses.css	/^    p.aboutMe {$/;"	c
 p.aboutMe	CSS/styleElem.css	/^p.aboutMe {$/;"	c
 pos	JS/js.js	/^let pos = $(window).scrollTop();$/;"	v
@@ -221,5 +220,7 @@ ul.boxExpirience	CSS/styleElem.css	/^ul.boxExpirience {$/;"	c
 ul.navBar	CSS/styleClasses.css	/^    ul.navBar {$/;"	c
 ul.navBar	CSS/styleEmailPart.css	/^    ul.navBar {$/;"	c
 upButton	index.html	/^    <div class="upButtonDiv invisible" id="upButton">$/;"	I
+visual	IMG/Layers/layer1.svg	/^<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http:\/\/www.w3.org\/2000/;"	i
 webStart	index.html	/^            <div class="webStart" id="webStart">$/;"	I
 wraper	index.html	/^    <div id="wraper">$/;"	I
+xlink	IMG/Layers/layer1.svg	/^<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http:\/\/www.w3.org\/2000/;"	n	uri:http://www.w3.org/1999/xlink
