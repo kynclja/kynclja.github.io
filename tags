@@ -200,7 +200,6 @@ li.navBar span	CSS/styleEmailPart.css	/^li.navBar span {$/;"	s
 my expiriences	index.html	/^                    <h3 class="topic">my expiriences<\/h3>$/;"	j
 myExpiriences	index.html	/^                <div id="myExpiriences"><\/div>$/;"	I
 myExpiriencesBtn	index.html	/^            <li class="navBar navBarContent pointer" id="myExpiriencesBtn"><span>02 \/\/My expir/;"	I
-myProjectsBtn	index.html	/^            <li class="navBar navBarContent pointer" id="myProjectsBtn"><span>03 \/\/My projects/;"	I
 navBarIcon	index.html	/^            <li class="navBar" id="navBarIcon"><i class='fas fa-align-justify pointer' id="navBa/;"	I
 navBarIconBtn	index.html	/^            <li class="navBar" id="navBarIcon"><i class='fas fa-align-justify pointer' id="navBa/;"	I
 navBarUl	index.html	/^        <ul class="navBar posAboslute" id="navBarUl">$/;"	I
