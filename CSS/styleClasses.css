@@ -309,11 +309,11 @@ div.aboutMe {
 }
 
 .contactMe img:hover {
-    transition: 250ms;
-    border-radius: 15px;
+    /* transition: 250ms; */
+    /* border-radius: 15px; */
     background-color: white;
     /* background-size: 60px; */
-    filter: invert(0);
+    /* filter: invert(0); */
 }
 
 .aboutMeExpirience {
