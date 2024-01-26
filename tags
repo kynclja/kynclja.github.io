@@ -19,11 +19,20 @@
 !_TAG_KIND_DESCRIPTION!HTML	i,heading2	/H2 headings/
 !_TAG_KIND_DESCRIPTION!HTML	j,heading3	/H3 headings/
 !_TAG_KIND_DESCRIPTION!HTML	t,title	/titles/
+!_TAG_KIND_DESCRIPTION!PHP	a,alias	/aliases/
+!_TAG_KIND_DESCRIPTION!PHP	c,class	/classes/
+!_TAG_KIND_DESCRIPTION!PHP	d,define	/constant definitions/
+!_TAG_KIND_DESCRIPTION!PHP	f,function	/functions/
+!_TAG_KIND_DESCRIPTION!PHP	i,interface	/interfaces/
+!_TAG_KIND_DESCRIPTION!PHP	n,namespace	/namespaces/
+!_TAG_KIND_DESCRIPTION!PHP	t,trait	/traits/
+!_TAG_KIND_DESCRIPTION!PHP	v,variable	/variables/
 !_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_OUTPUT_VERSION	0.0	/current.age/
 !_TAG_PARSER_VERSION!HTML	0.0	/current.age/
+!_TAG_PARSER_VERSION!PHP	0.0	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
 !_TAG_PROC_CWD	/home/toxho/epicIT/kynclja.github.io/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
