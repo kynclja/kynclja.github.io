@@ -146,12 +146,12 @@ a.imgLink {
     align-items: center;
 }
 
-.footer span {
+.footer.imgLink {
     transition: 450ms;
     margin-left: 15px;
 }
 
-.footer span:hover {
+.footer.imgLink:hover {
     transition: 350ms;
     color: black;
     padding: 5px;
