@@ -147,10 +147,14 @@ a.imgLink {
 }
 
 .footer span {
+    transition: 450ms;
     margin-left: 15px;
 }
 
 .footer span:hover {
+    transition: 350ms;
+    color: black;
+    padding: 5px;
     background-color: white;
     border-radius: 6px;
 }
@@ -173,4 +177,8 @@ a.imgLink {
     transition: transform 450ms ease-out;
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.copyright {
+    margin-top: 25px;
 }

@@ -79,6 +79,7 @@
 .contactMe img:hover	CSS/styleClasses.css	/^.contactMe img:hover {$/;"	s
 .content	CSS/styleEmailPart.css	/^.content {$/;"	c
 .contentPart	CSS/styleClasses.css	/^    .contentPart {$/;"	c
+.copyright	CSS/styleElem.css	/^.copyright {$/;"	c
 .curlyBracket	CSS/styleClasses.css	/^.curlyBracket {$/;"	c
 .download	CSS/styleClasses.css	/^    .download {$/;"	c
 .download	CSS/styleClasses.css	/^.download {$/;"	c
